@@ -839,15 +839,17 @@ fill: #FFF;
     fill: transparent;
 }
 
+.input-checkbox:checked+ .user-privacy > .data-check-svg{
+    background-color: #404BBF;
+    border: none;
+    fill: #FFFFFF;
+    border-color: #404BBF;
+}
+
 .privacy-policy{
     color: #4D5AE5;
 }
 
-.data-check-svg input:checked{
-    background-color:#404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
 
 .button-send{
     background-color: #4D5AE5;
