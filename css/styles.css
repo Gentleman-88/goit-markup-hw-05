@@ -780,12 +780,12 @@ fill: #FFF;
     border-color: #4D5AE5;
 }
 
-.data-type-text:focus + .data-person{
+.data-type-text:focus + .input-icon{
     fill: #4D5AE5;
 }
 
 
-.data-person {
+.input-icon {
     position: absolute;
     left: 16px;
     top: 50%;
