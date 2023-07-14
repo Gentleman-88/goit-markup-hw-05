@@ -778,9 +778,11 @@ fill: #FFF;
 
 .data-type-text:focus{
     border-color: #4D5AE5;
-    fill: #4D5AE5;
 }
 
+.data-type-text:focus + .data-person{
+    fill: #4D5AE5;
+}
 
 
 .data-person {
